@@ -40,7 +40,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
@@ -49,6 +48,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     transition: width 0.3s height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
    
     
 }
@@ -94,8 +94,8 @@ form > div.campo {
 }
 
 .material-symbols-outlined{
-    transform: translateY(6px);
     margin-left: 5px;
+    transform: translateY(3px);
 }
 
 
